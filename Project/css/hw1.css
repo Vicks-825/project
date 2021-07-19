@@ -1,0 +1,96 @@
+header{
+  background: #BB7777;
+  background-image: url("../images/flywheel.jpg");
+  padding: 2%;
+  text-align: center;
+
+}
+h1{
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 200%;
+}
+h2{
+  text-transform: uppercase;
+  color: #FF1111;
+}
+nav{
+/*  background: #BBB777; */
+  color: #111FFF;
+}
+nav a{
+  display: inline-block;
+  width: 20%;
+  font-size: 150%;
+  text-decoration: none;
+  margin: 10px;
+  padding: 20px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  opacity: 0.4;
+  color: #111111;
+}
+body{
+  margin: 5%;
+  padding: 5px;
+}
+img{
+  width: 150px;
+  border: solid black;
+  margin: 10px;
+
+}
+.active{
+  background: #FFFFFF;
+  opacity: 1.0;
+}
+.left{
+  float: left;
+  width: 12.5%;
+  padding: 2%;
+  background: #CCCC88;
+  margin: 0 auto;
+  height: 100vh;
+}
+.right{
+  display: inline-block;
+  padding: 10px;
+  width: 82%;
+}
+nav a:hover{
+  background: #A55555;
+}
+table{
+  background: #BB9999;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -ms-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+th{
+  background: #BB5555;
+  border-bottom: 2px solid black;
+  background: linear-gradient(#BB1111 0%, #BB77AA 100%);
+  color: #FFFFFF;
+}
+tr{
+  text-align: center;
+  opacity: 0.8;
+}
+table tr td:first-child, table tr th:first-child{
+  text-align: left;
+}
+tr:hover{
+  opacity: 1;
+}
+td,th{
+  border:1px solid #FFFFFF;
+  margin: 1px;
+  padding: 5px;
+}
